@@ -2,6 +2,8 @@
 
 > **WIP!**
 
+![lut opening a its own theme file and a C file from the [anntp](https://scm.mariorosell.es/anntp) library](lut.jpg)
+
 A [vis](https://github.com/martanne/vis) theme inspired by Vim's builtin desert theme, and Gruvbox's olive green, heavily modified to my liking :).
 
 ## Usage
