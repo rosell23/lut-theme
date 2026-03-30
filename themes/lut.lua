@@ -89,7 +89,7 @@ apply(lexers, {
 	STYLE_NOTHING     = bg(U.bg),
 	STYLE_CURSOR      = style(U.black, U.fg),
 	STYLE_CURSOR_LINE = bg(U.bg2),
-	STYLE_SELECTION   = bg(U.sel),
+	STYLE_SELECTION    = style(U.black, S.yellow),
 	STYLE_LINENUMBER  = style(U.gray, U.bg),
 
 	-- Syntax
@@ -106,13 +106,10 @@ apply(lexers, {
 	STYLE_FUNCTION     = style(S.yellow),
 	STYLE_OPERATOR     = style(U.fg),
 
-	-- Status bar
-	STYLE_STATUS         = style(U.fg, U.status_bg),
-	STYLE_STATUS_FOCUSED = style(U.fg, U.status_bg_f),
-
-	STYLE_INFO    = style(U.black, U.info_bg)
-	STYLE_WARNING = style(U.black, S.yellow):bold()
-	STYLE_ERROR   = style(U.white, U.error_bg):bold()
+	-- Status
+	STYLE_INFO          = style(U.white, U.error_bg):bold(),
+	STYLE_STATUS        = style(U.fg, U.status_bg),
+	STYLE_STATUS_FOCUSED = style(U.white, U.status_bg_f):bold(),
 
 	-- Misc UI
 	STYLE_COLOR_COLUMN = bg(U.bg2),
